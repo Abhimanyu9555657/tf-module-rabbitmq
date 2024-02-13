@@ -45,3 +45,4 @@ resource "aws_route53_record" "main" {
   ttl     = 30
   records = [aws_instance.main.private_ip]
 }
+
